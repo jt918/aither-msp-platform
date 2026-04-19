@@ -48,6 +48,17 @@ from services.msp.rmm import (
     AutomationPolicy,
     PolicyExecution
 )
+from services.msp.knowledge_base import (
+    KnowledgeBaseService,
+    ArticleVisibility,
+    ArticleStatus,
+    DocType,
+    KBArticle,
+    KBCategory,
+    KBSearchResult,
+    DocumentationEntry,
+    RunbookStep,
+)
 
 __all__ = [
     # App Distribution
@@ -93,5 +104,15 @@ __all__ = [
     "Patch",
     "Software",
     "AutomationPolicy",
-    "PolicyExecution"
+    "PolicyExecution",
+    # Knowledge Base
+    "KnowledgeBaseService",
+    "ArticleVisibility",
+    "ArticleStatus",
+    "DocType",
+    "KBArticle",
+    "KBCategory",
+    "KBSearchResult",
+    "DocumentationEntry",
+    "RunbookStep",
 ]

@@ -24,6 +24,11 @@ from api.routes.psa_connector import router as psa_router
 from api.routes.signature_pipeline import router as signature_router
 from api.routes.white_label import router as white_label_router
 from api.routes.knowledge_base import router as knowledge_base_router
+from api.routes.problem_management import router as problem_management_router
+from api.routes.nac_service import router as nac_router
+from api.routes.pam_service import router as pam_router
+from api.routes.dr_orchestration import router as dr_orchestration_router
+from api.routes.vendor_management import router as vendor_management_router
 
 all_routers = [
     msp_router,
@@ -47,4 +52,9 @@ all_routers = [
     signature_router,
     white_label_router,
     knowledge_base_router,
+    problem_management_router,
+    nac_router,
+    pam_router,
+    dr_orchestration_router,
+    vendor_management_router,
 ]
